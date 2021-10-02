@@ -10,9 +10,7 @@ public class ObjectSelection : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Object1.SetActive(true);
-        Object2.SetActive(false);
-        
+
 
     }
 
@@ -21,7 +19,7 @@ public class ObjectSelection : MonoBehaviour
     {
         
     }
-    public void NextObject()
+    void NextObject()
     {
         Object1.SetActive(false);
         Object2.SetActive(true);
