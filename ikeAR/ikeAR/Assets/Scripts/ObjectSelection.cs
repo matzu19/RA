@@ -19,7 +19,7 @@ public class ObjectSelection : MonoBehaviour
     {
         
     }
-    void NextObject()
+   public  void NextObject()
     {
         Object1.SetActive(false);
         Object2.SetActive(true);
