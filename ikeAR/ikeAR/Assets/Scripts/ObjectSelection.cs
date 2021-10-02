@@ -6,7 +6,10 @@ public class ObjectSelection : MonoBehaviour
 {
     [SerializeField] GameObject Object1;
     [SerializeField] GameObject Object2;
-    
+    [SerializeField] GameObject Object3;
+    [SerializeField] GameObject Colores;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +24,9 @@ public class ObjectSelection : MonoBehaviour
     }
    public  void NextObject()
     {
-        Object1.SetActive(false);
-        Object2.SetActive(true);
-        
+        Object1.SetActive(true);
+        Object2.SetActive(false);
+        Object2.SetActive(false);
+        Colores.SetActive(false);
     }
 }
