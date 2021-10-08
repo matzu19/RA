@@ -9,19 +9,6 @@ public class ObjectSelection : MonoBehaviour
     [SerializeField] GameObject Object3;
     [SerializeField] GameObject Colores;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
    public  void NextObject()
     {
         Object1.SetActive(true);

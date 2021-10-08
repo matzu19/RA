@@ -11,6 +11,7 @@ public class ReturnMenu : MonoBehaviour
 
     public void Start()
     {
+        Debug.Log("sdas");
         Ol = this.ObjectChild.transform.localScale;
         Od = this.ObjectChild.transform.rotation.eulerAngles;
     }
